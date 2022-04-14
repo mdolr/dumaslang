@@ -6,7 +6,7 @@ je réserve example_float = 3.14
 je réserve example_true_boolean = Bon
 je réserve example_false_boolean = Mauvais
 je réserve example_none = Vide 
-
+je réserve example_invert = on inverse example_false_boolean
 
 je réserve example_calculation = on calcule example_integer * example_float + 10 / 12 - 0.1337
 
@@ -16,7 +16,7 @@ on dresse example_float
 on dresse example_true_boolean
 on dresse example_false_boolean
 on dresse example_none
-
+on dresse example_invert
 on dresse example_calculation
 
 on dresse "Input something: "

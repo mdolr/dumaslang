@@ -31,6 +31,11 @@ def interpret(instruction):
         # global_variables.SPX = global_variables.SPX - 2;
         global_variables.CO += 1
 
+    elif instruction == 'NOT':
+        global_variables.pilex[global_variables.SPX] = int(
+            not global_variables.pilex[global_variables.SPX])
+        global_variables.CO += 1
+
     elif instruction == 'JSR':
         # On empile l'emplacement de l'appel
         global_variables.pile_appels_fonction.append(global_variables.CO)

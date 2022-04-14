@@ -1,7 +1,7 @@
 Programme '->' 'Salut' '.' 'les' '.' 'amis' '.' 'bienvenue' '.' 'à' '.' 'la' '.' 'maison' '.' '[' Ligne ']' '.' 'Maitre' '.' 'd'hotel' '.' 'le' '.' 'plat' '.' 'de' '.' 'la' '.' 'table' '.' '55' '.' 'est' '.' 'prêt' '.' 'on' '.' 'enlève!#14' ',' 
 Booleen '->' 'ELTER#2' '.' '(' '==#23' '+' '>=#27' '+' '<=#25' '+' '<#24' '+' '>#26' '+' '!=#28' ')' '.' 'ELTER#3' ','
 Condition '->' 'contrôle' '.' 'de' '.' 'la' '.' 'qualité' '.' Booleen '.' 'super-nickel#29' '.' '[' Ligne ']' '.' '(' 'terminé#30' '+' '(' 'sinon#31' '.' 'c'est' '.' 'pas' '.' 'encore' '.' 'bon' '.' '[' Ligne ']' '.' 'terminé#30' ')' ')' ','
-Affectation '->' 'je' '.' 'réserve' '.' 'ELTER#1' '.' '=' '.' '(' '(' 'on' '.' 'calcule' '.' Maths#5 ')' '+' Lecture '+' 'ELTER#4' ')' ','
+Affectation '->' 'je' '.' 'réserve' '.' 'ELTER#1' '.' '=' '.' '(' '(' 'on' '.' 'calcule' '.' Maths#5 ')' '+' '(' 'on' '.' 'inverse' '.' 'ELTER#22' ')' '+' Lecture '+' 'ELTER#4' ')' ','
 Fonction '->' 'Machine' '.' 'miracle' '.' 'ELTER#33' '.' '(' ':' '+' '(' 'on' '.' 'mélange' '.' 'ELTER#10' '.' '[' 'et' '.' 'ELTER#10' ']' '.' ':' ')' ')' '.' '[' Ligne ']' '.' 'en#34' '.' 'effet' '.' 'c'est' '.' 'prêt' ','
 AppelFonction '->' 'Feu' '.' 'allume' '.' 'ELTER#35' '.' '(' '!' '+' 'avec' '.' 'ELTER' '.' '[' 'et' '.' 'ELTER' ']' ')' ','
 Lecture '->' 'je' '.' 'lis' '.' 'tous' '.' 'les' '.' 'commentaires#15' ','

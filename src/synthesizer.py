@@ -152,7 +152,9 @@ def action_gpl(act):
         global_variables.pcode.append('AND')
 
     elif act == 22:
+        global_variables.pcode.extend(get_token())
         global_variables.pcode.append('NOT')
+        global_variables.pcode.append('AFF')
 
     elif act == 23:
         global_variables.pcode.append('EQ')
