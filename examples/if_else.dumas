@@ -1,0 +1,19 @@
+Salut les amis bienvenue à la maison
+
+je réserve x = 3
+je réserve y = -7
+
+contrôle de la qualité x != y super-nickel
+    on dresse "x != y 👌"
+    je réserve z = on calcule x + 3
+
+    contrôle de la qualité z == 4 super-nickel
+        on dresse "z == 4 😎"
+    sinon c'est pas encore bon
+        on dresse "z != 4 😡"
+    terminé
+sinon c'est pas encore bon
+    on dresse "x == y 😭"
+terminé
+
+Maitre d'hotel le plat de la table 55 est prêt on enlève!

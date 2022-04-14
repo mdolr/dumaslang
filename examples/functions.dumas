@@ -1,0 +1,20 @@
+Salut les amis bienvenue à la maison
+
+Machine miracle addition_recursive_de_b on mélange a et b :
+    je réserve c = on calcule a + b
+
+    contrôle de la qualité c < 30 super-nickel
+        je réserve a = c
+        Feu allume addition_recursive_de_b !
+    terminé
+en effet c'est prêt
+
+je réserve a = 2
+je réserve b = 3
+
+Feu allume addition_recursive_de_b !
+
+on dresse "C = "
+on dresse c
+
+Maitre d'hotel le plat de la table 55 est prêt on enlève!

@@ -1,0 +1,67 @@
+Salut les amis bienvenue à la maison
+
+on dresse "N'hésitez pas à laisser un commentaire, sachez que je les lis tous et si j'en manque un j'en prends connaissance"
+on dresse "Quelle valeur pour x ?"
+
+je réserve x = je lis tous les commentaires
+je réserve y = -7
+
+Machine miracle bonjour :
+    on dresse "bonjour"
+en effet c'est prêt
+
+Machine miracle addition_recursive_de_b on mélange a et b :
+    je réserve c = on calcule a + b
+
+    contrôle de la qualité c < 30 super-nickel
+        je réserve a = c
+        Feu allume addition_recursive_de_b !
+    terminé
+en effet c'est prêt
+
+contrôle de la qualité x != y super-nickel
+    je réserve z = 12
+    on dresse "condition validée 👌"
+
+    contrôle de la qualité z == 4 super-nickel
+        je réserve z = 5
+        on dresse "Condition 2 validée aussi"
+    sinon c'est pas encore bon
+        je réserve z = 6
+        on dresse "Beurk"
+    terminé
+
+sinon c'est pas encore bon
+    je réserve z = "x est pas égal à 3"
+    on dresse "condition invalidée 😭"
+terminé
+
+je réserve a = 2
+je réserve b = 3
+
+Feu allume addition_recursive_de_b !
+
+on dresse "Résultat de l'addition récursive de b tant que a < 30 avec a = 2 et b = 3"
+on dresse c
+
+je réserve y = 0
+
+on dresse "Une boucle qui compte jusqu'à 3 :"
+
+tourne et retourne tant que y < 3
+        je réserve y = on calcule y + 1
+        on dresse y
+comme ça
+
+on dresse "la boucle est finie :)"
+
+je réserve travail = Bon
+
+contrôle de la qualité travail == Bon super-nickel
+    on dresse "C'est du bon boulot 😎"
+sinon c'est pas encore bon
+    on dresse "Le travail est mauvais 😡"
+terminé
+
+
+Maitre d'hotel le plat de la table 55 est prêt on enlève!

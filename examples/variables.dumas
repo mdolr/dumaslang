@@ -1,0 +1,29 @@
+Salut les amis bienvenue à la maison
+
+je réserve example_string = "A string is defined between double-quotes"
+je réserve example_integer = 1000
+je réserve example_float = 3.14
+je réserve example_true_boolean = Bon
+je réserve example_false_boolean = Mauvais
+je réserve example_none = Vide 
+
+
+je réserve example_calculation = on calcule example_integer * example_float + 10 / 12 - 0.1337
+
+on dresse example_string
+on dresse example_integer
+on dresse example_float
+on dresse example_true_boolean
+on dresse example_false_boolean
+on dresse example_none
+
+on dresse example_calculation
+
+on dresse "Input something: "
+
+je réserve example_user_input = je lis tous les commentaires
+
+on dresse "User read input = "
+on dresse example_user_input
+
+Maitre d'hotel le plat de la table 55 est prêt on enlève!
