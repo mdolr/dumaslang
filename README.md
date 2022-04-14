@@ -43,11 +43,11 @@ and ends with :
 Maitre d'hotel le plat de la table 55 est prêt on enlève!
 ```
 
-### Defining variables
+### Declaring variables
 
 ⚠️ In this language all variables are global variables.
 
-To define variables use the syntax below - [Types and examples here](/examples/variables.dumas)
+To declare variables use the syntax below - [Types and examples here](/examples/variables.dumas)
 
 ```
 je réserve variable_name = value
@@ -83,7 +83,7 @@ symbol1 > symbol2
 
 ### Loops
 
-Only while loops are implemented
+Only while loops are implemented - [Example](/examples/loop.dumas)
 
 ```
 je réserve i = 0
