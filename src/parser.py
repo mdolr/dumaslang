@@ -1,4 +1,6 @@
 from src import global_variables
+import sys
+import os
 
 
 def parse_grammar(grammar_name):
@@ -8,8 +10,15 @@ def parse_grammar(grammar_name):
     if grammar_name is None or len(grammar_name) == 0:
         grammar_name = 'dumas'
 
+    print(grammar_name)
+
+    path = os.path.join(os.path.dirname(
+        __file__), "../grammars", f'{grammar_name}.txt')
+
+    print(path)
+
     # Open file ../global_variables.grammar/dumas.txt
-    with open(f'./grammars/{grammar_name}.txt', 'r') as f:
+    with open(path, 'r') as f:
         global_variables.grammar = f.read()
 
     global_variables.grammar = global_variables.grammar.replace(
