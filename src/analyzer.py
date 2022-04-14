@@ -90,7 +90,8 @@ def analyze_gpl(node):
         # On retourne vrai si l'analyse de g0 est valide sinon
         # on retourne l'analyse de g0 a droite
         # revient a valider les differents pans de l'arbre de gauche a droite
-        # print(f'Avant union', global_variables.program, 'global_variables.scanned:', global_variables.scanned)
+        # print(f'Avant union', global_variables.program,
+        #       'global_variables.scanned:', global_variables.scanned)
         stored_program = global_variables.program
         stored_scanned = global_variables.scanned
 
@@ -100,10 +101,12 @@ def analyze_gpl(node):
             return True
 
         else:
-            # print('Avant reset', global_variables.program, 'global_variables.scanned: ', global_variables.scanned)
+            # print('Avant reset', global_variables.program,
+            #       'global_variables.scanned: ', global_variables.scanned)
             global_variables.program = stored_program
             global_variables.scanned = stored_scanned
-            # print('Après reset', global_variables.program, 'global_variables.scanned:', global_variables.scanned)
+            # print('Après reset', global_variables.program,
+            #       'global_variables.scanned:', global_variables.scanned)
             right = analyze_gpl(node.right)
             return right
 
@@ -121,8 +124,20 @@ def analyze_gpl(node):
     # Si le noeud est un UN (0 ou 1)
     elif node.node_type == 'UN':
         # Si analyze_gpl est valide on renvoi True
-        if analyze_gpl(node.value):
-            return True
+        stored_program = global_variables.program
+        stored_scanned = global_variables.scanned
+
+        result = analyze_gpl(node.value)
+
+        if not result:
+            # print('Avant reset', global_variables.program,
+            #       'global_variables.scanned: ', global_variables.scanned)
+            global_variables.program = stored_program
+            global_variables.scanned = stored_scanned
+            # print('Après reset', global_variables.program,
+            #       'global_variables.scanned:', global_variables.scanned)
+
+        return True
 
     # Si le noeud est un atom
     elif node.node_type == 'Atom':
