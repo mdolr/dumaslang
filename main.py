@@ -45,4 +45,9 @@ if __name__ == '__main__':
 
     exec_code()
 
-    # print(f'Grammaire correcte? {result}')
+"""
+from src.debugger import imprim_arbre
+imprim_arbre(global_variables.A[5])
+
+# print(f'Grammaire correcte? {result}')
+"""
